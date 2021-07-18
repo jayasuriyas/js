@@ -870,10 +870,10 @@ border: 1px solid #ccc;
   left: 5%;
 }
 .icon-s a{
-  color: #222;
+  color: #0044ff;
 }
 .icon-s a:hover{
-  color: #;
+  color: #fff;
 }
 
 .icon-s span:not(:last-child) {
