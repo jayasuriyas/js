@@ -255,14 +255,14 @@ li {
 .hero a:visited {
   display: inline-block;
   padding: .8rem 2.5rem;
-  border: 1px solid var(--customColor);
+  border: 1px solid #0044ff;
   background-color: var(--customColor);
   color: #fff;
   margin-top: 2rem;
 }
 
 .hero a:hover {
-  color: #fff;
+  color: #0044ff;
   background-color: transparent;
 }
 
