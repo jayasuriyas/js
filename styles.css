@@ -904,5 +904,6 @@ footer p{
 }
 
 footer p span{
+  font-family: 'Fuggles', cursive;
   color: var(--customColor);
 }
