@@ -757,8 +757,8 @@ a.btn:active,
     min-height: 100vh;
     padding: 100px 15px;
 }
-.timeline .title h1{
-    color: #111;
+#timeline .title h1{
+    color: white;
 }
 .timeline-items{
     max-width: 1000px;
@@ -797,14 +797,14 @@ a.btn:active,
     width: 2px;
     height: 100%;
     background-color: #222;
-    left: calc(50% - 5px);
+    left: calc(50% - 1px);
 }
 .timeline-dot{
     height: 10px;
     width: 10px;
     background-color: #0044ff;
     position: absolute;
-    left: calc(50% - 7px);
+    left: calc(50% - 8px);
     border-radius: 50%;
     top: 10px;
 }
