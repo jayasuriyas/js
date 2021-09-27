@@ -757,6 +757,9 @@ a.btn:active,
     min-height: 100vh;
     padding: 100px 15px;
 }
+.timeline .title h1{
+    color: #111;
+}
 .timeline-items{
     max-width: 1000px;
     margin: auto;
