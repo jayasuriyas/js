@@ -800,21 +800,21 @@ a.btn:active,
     left: calc(50% - 1px);
 }
 .timeline-dot{
-    height: 10px;
-    width: 10px;
+    height: 12px;
+    width: 12px;
     background-color: #0044ff;
     position: absolute;
-    left: calc(50% - 8px);
+    left: calc(50% - 6px);
     border-radius: 50%;
     top: 10px;
 }
 .timeline-date{
-    font-size: 23px;
+    font-size: 20px;
     color: #0044ff;
     margin: 6px 0 15px;
 }
 .timeline-content h3{
-    font-size: 27px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
     margin: 0 0 10px;
     text-transform: capitalize;
@@ -822,7 +822,7 @@ a.btn:active,
 }
 .timeline-content p{
     color: rgb(221, 221, 221);
-    font-size: 20px;
+    font-size: 13px;
     font-weight: 300;
     line-height: 22px;
 }
@@ -863,7 +863,7 @@ a.btn:active,
   text-align: center;
 }
 #cv .head{
-  padding-top: 1%;
+  padding-top: 5%;
   padding-bottom: 1%;
   text-align: center;
   color: #f1f1f1;
