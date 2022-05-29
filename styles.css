@@ -1153,3 +1153,10 @@ footer p span{
   }
 }
 
+button.slick-next.slick-arrow {
+    display: none;
+}
+button.slick-prev.slick-arrow {
+    display: none;
+}
+
