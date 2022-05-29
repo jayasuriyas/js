@@ -995,14 +995,7 @@ footer p span{
   color: var(--customColor);
 }
 
-.row{
-  display: flex;
-  flex-wrap: wrap;
-}
-img{
-  max-width: 100%;
-  vertical-align: middle;
-}
+
 /*.gallery*/
 .gallery{
   width: 100%;
@@ -1016,6 +1009,7 @@ img{
 .gallery img{
   max-width: 100%;
   vertical-align: middle;
+  
 }
 .gallery .gallery-filter{
   padding: 0 15px;
@@ -1047,6 +1041,10 @@ img{
 .gallery .gallery-item-inner img{
   width: 100%;
   border: 3px solid #d4dad9;
+  transition: 0.5s all ease-in-out;
+}
+.gallery .gallery-item-inner:hover img {
+  transform: scale(1.5);
 }
 .gallery .gallery-item.show{
   animation: fadeIn 0.5s ease;
