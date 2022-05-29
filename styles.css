@@ -1019,9 +1019,11 @@ footer p span{
 }
 .gallery .gallery-filter .filter-item{
   color: #0044ff;
-  font-size: 17px;
+  font-size: 20px;
+  border: 2px solid #0044ff;
   text-transform: uppercase;
   display: inline-block;
+  border-radius: 10px;
   margin-right: 8px;
   cursor: pointer;
   padding: 8px 20px 8px 20px;
@@ -1040,11 +1042,10 @@ footer p span{
 }
 .gallery .gallery-item-inner img{
   width: 100%;
-  border: 3px solid #d4dad9;
   transition: 0.5s all ease-in-out;
 }
 .gallery .gallery-item-inner:hover img {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 .gallery .gallery-item.show{
   animation: fadeIn 0.5s ease;
