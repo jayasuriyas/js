@@ -1025,9 +1025,9 @@ img{
   margin-bottom: 40px;
 }
 .gallery .gallery-filter .filter-item{
-  color: #ffffff;
+  color: #0044ff;
   font-size: 17px;
-  border: 2px solid white;
+  border: 2px solid #0044ff;
   text-transform: uppercase;
   display: inline-block;
   border-radius: 20px;
@@ -1039,8 +1039,8 @@ img{
 }
 .gallery .gallery-filter .filter-item.active{
   color: white;
-  border-color : #16b5ef;
-  background: #16b5ef;
+  border-color : #0044ff;
+  background: #0044ff;
 }
 .gallery .gallery-item{
   width: calc(100% / 3);
