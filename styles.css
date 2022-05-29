@@ -1008,7 +1008,6 @@ img{
   width: 100%;
   display: block;
   min-height: 100vh;
-  padding: 100px 0;
 }
 .gallery .row{
   display: flex;
