@@ -205,6 +205,9 @@ li {
     align-items: flex-start;
     padding: 1rem 1.6rem;
   }
+  li.nav-item {
+    display: inline-flex;
+  }
 
   body.show::before {
     content: '';
