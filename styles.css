@@ -995,21 +995,28 @@ footer p span{
   color: var(--customColor);
 }
 
-/* .row{
+.row{
   display: flex;
   flex-wrap: wrap;
 }
 img{
   max-width: 100%;
   vertical-align: middle;
-} */
+}
 /*.gallery*/
 .gallery{
   width: 100%;
   display: block;
   min-height: 100vh;
-  background-color: #2a2932;
   padding: 100px 0;
+}
+.gallery .row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery img{
+  max-width: 100%;
+  vertical-align: middle;
 }
 .gallery .gallery-filter{
   padding: 0 15px;
