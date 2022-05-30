@@ -1125,6 +1125,12 @@ footer p span{
 .slick-loading .slick-slide {
   visibility: hidden;
 }
+button.slick-prev.slick-arrow {
+    display: none;
+}
+button.slick-next.slick-arrow {
+    display: none;
+}
 
 
 
