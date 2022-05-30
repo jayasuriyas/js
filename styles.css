@@ -183,7 +183,9 @@ li.nav-item {
   .top-nav .close {
     color: #fff;
   }
-
+  .logo-carousel{
+    margin-top: 10px;
+    }
 
   .hamburger,
   .top-nav .close {
