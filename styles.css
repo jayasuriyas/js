@@ -1091,12 +1091,12 @@ footer p span{
 
 .logo-carousel {
   overflow: inherit;
-  border-top: 1px solid #353535;
-  border-bottom: 1px solid #353535;
+  border-top: 1px solid #0044ff;
+  border-bottom: 1px solid #0044ff;
 }
 
 .slick-slide img {
-  width: 100%;
+  width: 45%;
 }
 
 .slick-track::before,
@@ -1125,37 +1125,6 @@ footer p span{
   visibility: hidden;
 }
 
-.slick-arrow {
-  position: absolute;
-  top: 50%;
-  background: url(https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/arrow.svg?sanitize=true) center no-repeat;
-  color: #fff;
-  filter: invert(77%) sepia(32%) saturate(1%) hue-rotate(344deg) brightness(105%) contrast(103%);
-  border: none;
-  width: 2rem;
-  height: 1.5rem;
-  text-indent: -10000px;
-  margin-top: -16px;
-  z-index: 99;
-}
-
-.slick-arrow.slick-next {
-  right: -40px;
-  transform: rotate(180deg);
-}
-
-.slick-arrow.slick-prev {
-  left: -40px;
-}
-button.slick-next.slick-arrow {
-    display: none !important;
-}
-button.slick-prev.slick-arrow {
-    display: none !important;
-}
-.slide {
-    padding: 40px;
-}
 
 
 /* Media Queries */
