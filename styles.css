@@ -390,6 +390,7 @@ li.nav-item {
 .section {
   padding: 0rem 0 5rem 0;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .about {
