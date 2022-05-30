@@ -28,9 +28,9 @@ $(document).ready(function() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 1000,
-    arrows: true,
+    arrows: false,
     dots: false,
-    pauseOnHover: false,
+    pauseOnHover: true,
     responsive: [{
       breakpoint: 768,
       settings: {
