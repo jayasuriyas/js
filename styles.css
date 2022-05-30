@@ -1147,6 +1147,16 @@ footer p span{
 .slick-arrow.slick-prev {
   left: -40px;
 }
+button.slick-next.slick-arrow {
+    display: none !important;
+}
+button.slick-prev.slick-arrow {
+    display: none !important;
+}
+.slide {
+    padding: 40px;
+}
+
 
 /* Media Queries */
 
@@ -1155,12 +1165,5 @@ footer p span{
     width: 1rem;
     height: 1rem;
   }
-}
-
-button.slick-next.slick-arrow {
-    display: none;
-}
-button.slick-prev.slick-arrow {
-    display: none;
 }
 
