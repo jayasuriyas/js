@@ -1125,12 +1125,15 @@ footer p span{
 .slick-loading .slick-slide {
   visibility: hidden;
 }
+/* .logo-carousel button{
+   display: none !important;
+}
 button.slick-prev.slick-arrow {
-    display: none;
+    display: none !important;
 }
 button.slick-next.slick-arrow {
-    display: none;
-}
+    display: none !important;
+} */
 
 
 
