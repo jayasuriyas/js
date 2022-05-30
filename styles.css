@@ -145,7 +145,9 @@ li {
   border-radius: .3rem;
   background-color: var(--customColor);
 }
-
+li.nav-item {
+    display: inline-flex;
+}
 .hamburger,
 .top-nav {
   display: none;
@@ -206,7 +208,7 @@ li {
     padding: 1rem 1.6rem;
   }
   li.nav-item {
-    display: inline-flex;
+    display: block;
   }
 
   body.show::before {
