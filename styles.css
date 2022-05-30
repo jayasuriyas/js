@@ -1086,7 +1086,7 @@ footer p span{
 }
 
 /* Slider */
-.slick-slide {
+/* .slick-slide {
   margin: 0px 20px;
 }
 
@@ -1124,7 +1124,7 @@ footer p span{
 
 .slick-loading .slick-slide {
   visibility: hidden;
-}
+} */
 /* .logo-carousel button{
    display: none !important;
 }
@@ -1139,10 +1139,10 @@ button.slick-next.slick-arrow {
 
 /* Media Queries */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .slick-arrow {
     width: 1rem;
     height: 1rem;
   }
-}
+} */
 
